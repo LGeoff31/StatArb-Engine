@@ -20,5 +20,7 @@ Automated system that identifies cointegrated stock pairs and executes market-ne
 https://github.com/user-attachments/assets/8bc2d6da-448f-4c92-a33e-c4b9827c8ec1
 
 ## Quick Start
+```
 pip install -r requirements.txt
 python3 main.py
+```
