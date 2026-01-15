@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 
-A production-ready statistical arbitrage trading system that automates pair trading strategies using cointegration analysis and mean reversion techniques. Demonstrates advanced quantitative finance concepts used by leading trading firms.
+A production-ready statistical arbitrage trading system that automates pair trading strategies using cointegration analysis and mean reversion techniques.
 
 ## Overview
 
