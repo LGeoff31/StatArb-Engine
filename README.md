@@ -20,31 +20,8 @@ Automated system that identifies cointegrated stock pairs and executes market-ne
 <img width="796" height="567" alt="image" src="https://github.com/user-attachments/assets/53177146-f725-4970-8967-d225a739c7bd" /> |
 <img width="901" height="383" alt="image" src="https://github.com/user-attachments/assets/db53162d-626b-4cd0-b408-85cee3fa2d9b" /> |
 
-
-https://github.com/user-attachments/assets/f2fb288f-2837-4c6c-8f2f-9e8f10ae6b95
-
-
-## Architecture
-
-flowchart LR
-    A[Data] --> B[Pair Selection]
-    B --> C[Signal Generation]
-    C --> D[Backtesting]
-    D --> E[Performance Analysis]
-    D --> F[Visualization]
-    
-    style A fill:#4a90e2
-    style B fill:#f5a623
-    style C fill:#7ed321
-    style D fill:#bd10e0
-    style E fill:#50e3c2
-    style F fill:#50e3c2
-
-
-
-
-### Installation
-pip install -r requirements.txt
+https://github.com/user-attachments/assets/8bc2d6da-448f-4c92-a33e-c4b9827c8ec1
 
 ## Quick Start
+pip install -r requirements.txt
 python3 main.py
