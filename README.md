@@ -9,31 +9,22 @@ A production-ready statistical arbitrage trading system that automates pair trad
 Automated system that identifies cointegrated stock pairs and executes market-neutral trades when price spreads deviate from historical norms, profiting from mean reversion.
 
 
-## 🏗️ Architecture
+## Architecture
 
-graph TD
-    A[Stock Symbols] --> B[Data Fetcher]
-    B --> C[Historical Prices]
-    C --> D[Pair Selector]
-    D --> E[Cointegration Analysis]
-    E --> F[Best Pair Selected]
-    F --> G[Signal Generator]
-    G --> H[Z-Score Calculation]
-    H --> I[Trading Signals]
-    I --> J[Backtester]
-    J --> K[Simulate Trades]
-    K --> L[Apply Costs & Slippage]
-    L --> M[Backtest Results]
-    M --> N[Performance Analyzer]
-    M --> O[Visualizer]
-    N --> P[Performance Metrics]
-    O --> Q[Charts & Graphs]
+flowchart LR
+    A[Data] --> B[Pair Selection]
+    B --> C[Signal Generation]
+    C --> D[Backtesting]
+    D --> E[Performance Analysis]
+    D --> F[Visualization]
     
-    style A fill:#e1f5ff
-    style F fill:#fff4e1
-    style I fill:#ffe1f5
-    style P fill:#e1ffe1
-    style Q fill:#e1ffe1
+    style A fill:#4a90e2
+    style B fill:#f5a623
+    style C fill:#7ed321
+    style D fill:#bd10e0
+    style E fill:#50e3c2
+    style F fill:#50e3c2
+
 
 
 ## Features
